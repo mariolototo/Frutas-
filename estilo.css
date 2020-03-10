@@ -1,8 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .a11 {
     display: flex;
+    flex-wrap: wrap;
 }
+
 .p3 {
     border: 2px solid black;
     margin: 10px;
-    width: 200px;
+    width: 210px;
+    text-align: justify;
+}
+
+.a12 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.a13 {
+    display: flex;
+    align-items: center;
+}
+
+.a21 {
+    display: flex;
+}
+
+.ficha {
+    display: inline-flex;
+    border: 2px solid black;
+}
+
+.p2 {
+    background-color: #D3D3D3;
+    
 }
